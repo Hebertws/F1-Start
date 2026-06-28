@@ -889,7 +889,7 @@ function renderGuide() {
 // Coloque o arquivo de áudio em assets/sounds/tire-sound.mp3
 // (ou troque o caminho abaixo pelo nome real do seu arquivo).
 const tireSound = new Audio("assets/sounds/u_dn8ylcpe3v-f1_radio_sound-293747.mp3");
-tireSound.volume = 0.4; // ajuste entre 0.0 e 1.0 conforme o volume do arquivo
+tireSound.volume = 0.6; // ajuste entre 0.0 e 1.0 conforme o volume do arquivo
 
 function playTireScreech() {
   // Reinicia do começo, assim funciona mesmo se o usuário passar
